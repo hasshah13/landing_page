@@ -11,21 +11,56 @@ body {
     background-color: #1f2937;
 }
 
+.header {
+    padding:30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links ul {
+    display:flex;
+    gap: 30px;
+}
+
+.nav-link {
+    list-style-type: none;
+}
+
+.nav-link a {
+    text-decoration: none;
+}
+
+.hero-pod {
+    padding:30px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    margin-right:40px;
+}
+
 .logo img {
     width:150px;
 }
 
+.hero-image {
+    display:flex;
+    flex: none;  
+}
+
 .hero-image img {
-    width:500px;
-    display:flex;  
-    flex:auto;
+    max-width:400px;
+    display:flex;
+    flex:none;
 }
 
 .quote-pod {
     background-color: #e5e7eb;
 }
 
-.nav-links, .hero-text p {
+.nav-link a, .hero-text p {
     color:#e5e7eb;
 }
 
@@ -51,4 +86,5 @@ h2 {
 button {
     background-color: #3882f6;
     color: #f9faf8;
+    padding: 8px 40px;
 }
