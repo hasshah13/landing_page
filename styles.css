@@ -11,53 +11,15 @@ body {
     background-color: #1f2937;
 }
 
-.header {
-    padding:30px;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav-links ul {
-    display:flex;
-    gap: 30px;
-}
-
-.nav-link {
-    list-style-type: none;
-}
-
-.nav-link a {
-    text-decoration: none;
-}
-
-.hero-pod {
-    padding:30px;
-    display:flex;
-    justify-content: space-between;
-}
-
-.hero-text {
-    margin-right:40px;
-}
-
-.logo img {
-    width:150px;
-}
-
-.hero-image {
-    display:flex;
-    flex: none;  
-}
-
-.hero-image img {
-    max-width:400px;
-    display:flex;
-    flex:none;
-}
-
 .quote-pod {
     background-color: #e5e7eb;
+}
+
+.header-content, .hero-content, .info-content, .quote-content, .cta-content {
+    display:flex;
+    flex:0 1 auto;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .nav-link a, .hero-text p {
@@ -76,6 +38,92 @@ h2 {
     color: #1f2937;
 }
 
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 40px;
+}
+
+.header-content {
+    padding:30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width:150px;
+}
+
+.nav-links ul {
+    display:flex;
+    gap: 30px;
+}
+
+.nav-link {
+    list-style-type: none;
+}
+
+.nav-link a {
+    text-decoration: none;
+}
+
+.hero-content {
+    padding:30px;
+    display:flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+.hero-text {
+    margin-right:40px;
+}
+
+
+
+.hero-image {
+    display:flex;
+    flex: none;  
+}
+
+.hero-image img {
+    max-width:400px;
+    display:flex;
+    flex:none;
+}
+
+
+.info-content {
+    flex-direction: column;
+    align-items: center;
+    padding:50px 0px;
+}
+
+.info-card-grid {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-img {
+    width:125px;
+    height:125px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:150px;
+}
+
+
 .quote {
     font-size: 36px;
     font-style: italic;
@@ -83,8 +131,3 @@ h2 {
     color: #1f2937;
 }
 
-button {
-    background-color: #3882f6;
-    color: #f9faf8;
-    padding: 8px 40px;
-}
